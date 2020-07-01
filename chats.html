@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat | KaKao Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
+      <div class="status-bar__column">
+        <span class="status-bar__icon">
+          <i class="fas fa-clock"></i>
+        </span>
+        <span class="status-bar__icon">
+          <i class="fas fa-volume-mute"></i>
+        </span>
+        <span class="status-bar__icon">
+          <i class="fas fa-wifi"></i>
+        </span>
+        <span class="status-bar__battery-leve">100%</span>
+        <span class="status-bar__icon">
+          <i class="fas fa-battery-full"></i>
+        </span>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__column">
+        <a href="index.html" class="header__back-btn">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+        <h1 class="header__title">Best friend</h1>
+      </div>
+      <div class="header__column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </div>
+    </header>
+    <main class="chat-screen">
+      <ul class="chat__messages">
+        <span class="chat__messages-timestamp">saturday, june 27, 2020</span>
+        <li class="incoming-message message">
+          <img
+            src="images/hongjun.jpg"
+            alt="best-friend"
+            class="message__icon"
+          />
+          <div class="message__content">
+            <span class="content__bubble">
+              Hey HongJun, how was it going?
+            </span>
+            <span class="content__author">
+              Best friend
+            </span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="content__bubble">
+              Oh, hey bro. I'm doing well.
+            </span>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img
+            src="images/hongjun.jpg"
+            alt="best-friend"
+            class="message__icon"
+          />
+          <div class="message__content">
+            <span class="content__bubble">
+              I miss you guys.
+            </span>
+            <span class="content__author">
+              Best friend
+            </span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="content__bubble">
+              Thank you!!
+            </span>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="chat__write write">
+      <input type="text" class="write__input" placeholder="Send message" />
+      <div class="write__icon--left">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="write__icon--right">
+        <span class="write__icon">
+          <i class="far fa-smile"></i>
+        </span>
+        <span class="write__icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
