@@ -33,7 +33,7 @@
 .friend .chat__timestamp,
 .friend .friend__number,
 .friend .friend__music-titlename {
-  opacity: 0.6;
+  opacity: 0.7;
   font-size: 12px;
 }
 
@@ -60,6 +60,7 @@
 
 .friend__now-listening i {
   font-size: 12px;
+  opacity: 0.7;
 }
 
 .friend .friend__add-btn {
