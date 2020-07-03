@@ -1,0 +1,8 @@
+.friends .friends__header,
+.friends .friends__header ~ div {
+  border-top: 1px solid #f7f7f7;
+}
+
+.friends .friends__birthday {
+  margin-top: 15px;
+}

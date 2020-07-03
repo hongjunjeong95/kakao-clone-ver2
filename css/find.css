@@ -1,0 +1,23 @@
+.find__header-btn {
+  margin-bottom: 50px;
+}
+
+.find__header .find__header-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.find__header .find__header-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find .header-btn__icon {
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.header-btn .header-btn__title {
+  font-size: 14px;
+}
