@@ -10,7 +10,7 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body class="chats-body">
     <div class="header-wrapper">
       <div class="status-bar">
         <div class="status-bar__column">
@@ -100,10 +100,12 @@
     </main>
     <div class="chat__write write">
       <input type="text" class="write__input" placeholder="Send message" />
-      <div class="write__icon--left">
-        <i class="far fa-plus-square"></i>
+      <div class="write__icon--left write__icon-column">
+        <span class="write__icon">
+          <i class="far fa-plus-square"></i>
+        </span>
       </div>
-      <div class="write__icon--right">
+      <div class="write__icon--right write__icon-column">
         <span class="write__icon">
           <i class="far fa-smile"></i>
         </span>
