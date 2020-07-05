@@ -11,45 +11,47 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">13:54</span>
+    <div class="header-wrapper">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">13:54</span>
+        </div>
+        <div class="status-bar__column">
+          <span class="status-bar__icon">
+            <i class="fas fa-clock"></i>
+          </span>
+          <span class="status-bar__icon">
+            <i class="fas fa-volume-mute"></i>
+          </span>
+          <span class="status-bar__icon">
+            <i class="fas fa-wifi"></i>
+          </span>
+          <span class="status-bar__battery-level">100%</span>
+          <span class="status-bar__icon">
+            <i class="fas fa-battery-full"></i>
+          </span>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <span class="status-bar__icon">
-          <i class="fas fa-clock"></i>
-        </span>
-        <span class="status-bar__icon">
-          <i class="fas fa-volume-mute"></i>
-        </span>
-        <span class="status-bar__icon">
-          <i class="fas fa-wifi"></i>
-        </span>
-        <span class="status-bar__battery-level">100%</span>
-        <span class="status-bar__icon">
-          <i class="fas fa-battery-full"></i>
-        </span>
-      </div>
+      <header class="header">
+        <div class="header__column">
+          <h1 class="header__title">Chats</h1>
+        </div>
+        <div class="header__column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+            <i class="far fa-comment"></i>
+          </span>
+          <span class="header__icon">
+            <i class="fas fa-cog"></i>
+          </span>
+        </div>
+      </header>
     </div>
-    <header class="header">
-      <div class="header__column">
-        <h1 class="header__title">Chats</h1>
-      </div>
-      <div class="header__column">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-        <span class="header__icon">
-          <i class="far fa-comment"></i>
-        </span>
-        <span class="header__icon">
-          <i class="fas fa-cog"></i>
-        </span>
-      </div>
-    </header>
-    <main class="chats">
+    <main class="chats body">
       <ul class="chats__list">
-        <li class="chats__chat chat">
+        <li class="chats__chat chat main--top">
           <a href="chats.html" class="chat__link">
             <div class="chat__friend friend">
               <div class="friend__column">
