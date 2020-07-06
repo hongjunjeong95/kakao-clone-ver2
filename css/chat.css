@@ -62,6 +62,8 @@
 .write__icon-column {
   font-size: 18px;
   transition: opacity 0.3s ease-in;
+  padding: 0 20px;
+  cursor: pointer;
 }
 
 .write__input:focus ~ .write__icon-column {
