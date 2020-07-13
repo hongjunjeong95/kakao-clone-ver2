@@ -1,4 +1,7 @@
-.friends .friends__header,
+body {
+  padding-bottom: 70px;
+}
+
 .friends .friends__header ~ div {
   border-top: 1px solid #f7f7f7;
 }
