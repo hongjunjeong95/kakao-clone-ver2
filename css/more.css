@@ -42,7 +42,7 @@
 .suggestion-btn .suggestion-btn__icon {
   font-size: 28px;
   color: white;
-  background-color: #fce006;
+  background-color: #e2b520;
   padding: 10px;
   border-radius: 10px;
 }
@@ -50,4 +50,14 @@
 .suggestion-btn .suggestion-btn__title {
   font-size: 12px;
   margin-top: 15px;
+}
+
+.suggestion-btn,
+.header-btn {
+  transition: 0.2s linear;
+}
+
+.suggestion-btn:hover,
+.header-btn:hover {
+  transform: scale(1.2);
 }

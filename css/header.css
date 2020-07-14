@@ -31,6 +31,11 @@
   font-size: 20px;
   margin-left: 20px;
   cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.header .header__icon:hover {
+  transform: scale(1.2);
 }
 
 .header .header__column {
