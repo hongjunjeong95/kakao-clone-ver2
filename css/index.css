@@ -9,39 +9,3 @@
 .chats__list .chat__timestamp {
   margin-right: 20px;
 }
-
-.chats__chat {
-  transition: 0.2s linear;
-}
-
-.chats__chat:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 5px 15px -5px #00000070;
-  color: rgb(255, 196, 207);
-}
-
-.chats__chat::before {
-  content: "";
-  position: absolute;
-  left: -110%;
-  width: 110%;
-  background-color: rgb(48, 28, 28);
-  box-shadow: inset 0 18px 36px -10px rgba(245, 153, 153, 0.822);
-  z-index: -1;
-}
-
-.chats__chat:hover::before {
-  height: 94%;
-  left: -10%;
-  top: 5%;
-  animation: slide 0.3s 1;
-}
-
-@keyframes slide {
-  from {
-    left: -110%;
-  }
-  to {
-    left: -10%;
-  }
-}
