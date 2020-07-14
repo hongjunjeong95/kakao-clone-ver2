@@ -5,6 +5,11 @@
 .find__header-btn {
   margin-bottom: 50px;
   cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.find__header-btn:hover {
+  transform: scale(1.2);
 }
 
 .find__header .find__header-list {

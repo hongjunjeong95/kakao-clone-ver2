@@ -17,11 +17,7 @@
 .chats__chat:hover {
   transform: translateY(-10px);
   box-shadow: 0 5px 15px -5px #00000070;
-  /* color: transparent; */
-}
-
-.chats__list {
-  position: relative;
+  color: rgb(255, 196, 207);
 }
 
 .chats__chat::before {

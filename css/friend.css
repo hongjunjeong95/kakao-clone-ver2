@@ -76,9 +76,17 @@
   justify-content: center;
   align-items: center;
   padding: 10px 15px;
-  background-color: #f5f5f5;
+  background-color: #ffd6d6;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.friend .friend__add-btn {
+  transition: 0.2s linear;
+}
+
+.friend .friend__add-btn:hover {
+  transform: scale(1.2);
 }
 
 .friend .comment-btn {
