@@ -41,9 +41,9 @@
       0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   }
   50% {
-    box-shadow: 0 30px 60px -60px rgba(50, 50, 93, 0.25),
-      0 18px 36px -18px rgba(0, 0, 0, 0.3),
-      0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+    box-shadow: 0 30px 60px -12px rgba(245, 153, 153, 0.822),
+      0 18px 36px -18px rgba(245, 153, 153, 0.822),
+      0 -12px 36px -8px rgba(245, 153, 153, 0.822);
   }
   100% {
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
