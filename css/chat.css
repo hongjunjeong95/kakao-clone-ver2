@@ -1,14 +1,3 @@
-.header-wrapper {
-  position: fixed;
-  background-color: white;
-  top: 0;
-  width: 100%;
-  padding: 10px 30px;
-  box-shadow: 0 18px 36px -18px rgba(0, 0, 0, 0.3),
-    0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-  z-index: 2;
-}
-
 .chats-body {
   background-image: url("../images/chatbg.png");
   min-height: 1000vh;
@@ -29,6 +18,15 @@
   margin: 0 auto;
   font-size: 14px;
   transition: all 0.5s ease-in;
+
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/images/thumbnail/marvel.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 18px 36px -18px rgba(245, 153, 153, 0.822),
+    0 -12px 36px -8px rgba(245, 153, 153, 0.822);
+  color: rgb(241, 117, 117);
 }
 
 .chat__write .write__input:focus {
@@ -70,13 +68,6 @@
   opacity: 0;
 }
 
-.chat__write-column input {
-  padding: 20px 10px;
-  width: 100%;
-  border: none;
-  font-size: 14px;
-}
-
 .chat__write .write__icon--left {
   position: absolute;
   left: 10px;
@@ -92,11 +83,11 @@
 }
 
 .chat-screen .chat__messages {
-  border-top: 1px solid #f7f7f7;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px 20px;
+  margin-top: 15px;
 }
 
 .chat__messages .chat__messages-timestamp {
@@ -148,7 +139,6 @@
 }
 
 .chat__messages .message {
-  /* display: flex; */
   margin-bottom: 30px;
 }
 
@@ -173,7 +163,6 @@
 
 .message__content .content__author {
   margin-top: 10px;
-  /* display: block; */
   font-weight: 600;
   font-size: 12px;
 }

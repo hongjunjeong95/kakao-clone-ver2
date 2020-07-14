@@ -2,10 +2,10 @@ body {
   padding-bottom: 70px;
 }
 
-.friends .friends__header ~ div {
-  border-top: 1px solid #f7f7f7;
+.friends__header {
+  padding: 15px;
 }
 
-.friends .friends__birthday {
-  margin-top: 15px;
+.friends__header {
+  padding-left: 0;
 }

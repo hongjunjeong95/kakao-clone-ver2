@@ -1,3 +1,7 @@
+.more__header {
+  padding-top: 15px;
+}
+
 .more .more__header-list,
 .more .more__suggestions-list {
   display: flex;
@@ -18,7 +22,7 @@
   margin-top: 10px;
   margin-bottom: 30px;
   padding-top: 20px;
-  border-top: 1px solid #f7f7f7;
+  border-top: 1px solid #5f5656;
 }
 
 .more__header-btn .header-btn__title {
@@ -27,7 +31,7 @@
 }
 
 .more .more__suggestions {
-  border-top: 1px solid #f7f7f7;
+  border-top: 1px solid #5f5656;
   padding-top: 20px;
 }
 
