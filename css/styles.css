@@ -18,18 +18,17 @@
 }
 
 body {
-  color: #020202;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/Avengers_Infinity_War_poster.jpg");
-  /* url("images/Avengers_Infinity_War_poster.jpg"); */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   color: rgb(241, 117, 117);
+  padding-bottom: 70px;
 }
 
 a {
@@ -41,7 +40,6 @@ a {
   padding-top: 125px;
 }
 
-/* .chats__list, */
 .friends,
 .find,
 .more {
@@ -68,5 +66,4 @@ a {
 
 main {
   animation: fadeIn 0.5s ease-in-out;
-  /* min-height: 1000vh; */
 }
