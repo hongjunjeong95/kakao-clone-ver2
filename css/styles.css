@@ -23,7 +23,7 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/images/Avengers_Infinity_War_poster.jpg);
+    url("/images/Avengers_Infinity_War_poster.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
