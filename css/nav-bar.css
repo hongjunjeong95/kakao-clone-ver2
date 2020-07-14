@@ -1,6 +1,6 @@
 .nav {
   background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("./images/thumbnail/marvel.png");
+    url("../images/thumbnail/marvel.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
