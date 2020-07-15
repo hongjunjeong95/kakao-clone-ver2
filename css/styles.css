@@ -30,7 +30,6 @@ body {
   background-repeat: no-repeat;
   color: rgb(241, 117, 117);
   padding-bottom: 70px;
-  /* overflow: hidden; */
 }
 
 a {
@@ -38,14 +37,8 @@ a {
   color: inherit;
 }
 
-.body {
+.main {
   padding-top: 125px;
-}
-
-.friends,
-.find,
-.more {
-  padding: 0px 20px;
 }
 
 @keyframes fadeIn {

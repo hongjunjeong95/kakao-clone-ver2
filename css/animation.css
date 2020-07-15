@@ -1,18 +1,29 @@
 .chats__chat,
-.setting-btn {
+.setting-btn,
+.friends__friend {
   transition: 0.2s linear;
   cursor: pointer;
 }
 
 .chats__chat:hover,
-.setting-btn:hover {
+.setting-btn:hover,
+.friends__friend:hover {
   transform: translateY(-10px);
   box-shadow: 0 5px 15px -5px #00000070;
   color: rgb(255, 196, 207);
 }
 
+.friends__friend:hover .friend__add-btn {
+  color: rgb(241, 117, 117);
+}
+
+.friends__friend {
+  position: relative;
+}
+
 .chats__chat::before,
-.setting-btn::before {
+.setting-btn::before,
+.friends__friend::before {
   content: "";
   position: absolute;
   left: -110%;
@@ -23,7 +34,8 @@
 }
 
 .chats__chat:hover::before,
-.setting-btn:hover::before {
+.setting-btn:hover::before,
+.friends__friend:hover::before {
   height: 94%;
   left: -10%;
   top: 5%;

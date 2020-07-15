@@ -1,7 +1,18 @@
-.friends__header {
-  padding: 15px;
+.friends {
+  padding: 0 2px;
 }
 
 .friends__header {
   padding-left: 0;
+}
+
+.friends__list,
+.friends__plus,
+.friends__birthday,
+.friends__header {
+  margin-left: 20px;
+}
+
+.friend__number {
+  margin-right: 20px;
 }
