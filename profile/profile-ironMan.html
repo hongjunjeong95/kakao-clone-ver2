@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile | KaKao Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body class="profile-body">
+    <div class="background">
+      <div class="header-wrapper--profile">
+        <div class="status-bar">
+          <div class="status-bar__column">
+            <span class="status-bar__clock js-clock">00:00</span>
+          </div>
+          <div class="status-bar__column">
+            <span class="status-bar__icon">
+              <i class="fas fa-clock"></i>
+            </span>
+            <span class="status-bar__icon">
+              <i class="fas fa-volume-mute"></i>
+            </span>
+            <span class="status-bar__icon">
+              <i class="fas fa-wifi"></i>
+            </span>
+            <span class="status-bar__battery-level">100%</span>
+            <span class="status-bar__icon">
+              <i class="fas fa-battery-full"></i>
+            </span>
+          </div>
+        </div>
+        <header class="header">
+          <div class="header__column">
+            <a href="../friends.html" class="header__back-btn">
+              <span class="header__icon">
+                <i class="fas fa-times"></i>
+              </span>
+            </a>
+          </div>
+          <div class="header__column">
+            <span class="header__icon">
+              <i class="fas fa-gift"></i>
+            </span>
+            <span class="header__icon">
+              <i class="fas fa-qrcode"></i>
+            </span>
+            <span class="header__icon">
+              <i class="fas fa-cog"></i>
+            </span>
+          </div>
+        </header>
+      </div>
+      <main>
+        <div class="profile">
+          <img
+            src="../images/thumbnail/ironMan.jfif"
+            alt=""
+            class="profile__picture"
+          />
+          <h5 class="profile__username">Iron Man</h5>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <ul class="features">
+        <li class="features__feature-btn">
+          <span class="feature-btn__icon">
+            <i class="fas fa-comment"></i>
+          </span>
+          <span class="feature-btn__title">1:1 chat</span>
+        </li>
+        <li class="features__feature-btn">
+          <span class="feature-btn__icon">
+            <i class="fas fa-phone-alt"></i>
+          </span>
+          <span class="feature-btn__title">Make a call</span>
+        </li>
+        <li class="features__feature-btn">
+          <span class="feature-btn__icon">
+            <i class="fas fa-quote-right"></i>
+          </span>
+          <span class="feature-btn__title">Kakao story</span>
+        </li>
+      </ul>
+    </footer>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small</span>
+    </div>
+    <script src="../js/clock.js"></script>
+  </body>
+</html>

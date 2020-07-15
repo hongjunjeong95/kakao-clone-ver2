@@ -1,0 +1,70 @@
+.header-wrapper--profile {
+  color: #ffbfbf;
+  width: 100%;
+  padding: 10px 30px;
+}
+
+.profile-body {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4) 30%,
+      rgba(0, 0, 0, 0.9) 80%,
+      rgba(0, 0, 0, 1) 81%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../images/Avengers_Infinity_War_poster.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: rgb(241, 117, 117);
+  padding-bottom: 70px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: -330px;
+}
+
+.profile .profile__picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile__username {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.features {
+  position: absolute;
+  left: 0px;
+  bottom: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  border-top: 1px solid rgb(65, 58, 58);
+  padding-top: 30px;
+}
+
+.features__feature-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-size: 23px;
+}
+
+.feature-btn__icon {
+  margin-bottom: 15px;
+}
+
+.feature-btn__title {
+  font-size: 14px;
+}
