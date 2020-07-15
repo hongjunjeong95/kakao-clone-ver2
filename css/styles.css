@@ -30,6 +30,7 @@ body {
   background-repeat: no-repeat;
   color: rgb(241, 117, 117);
   padding-bottom: 70px;
+  /* overflow: hidden; */
 }
 
 a {
